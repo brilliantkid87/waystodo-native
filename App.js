@@ -7,6 +7,8 @@ import Login from "./screen/login";
 import Register from "./screen/register";
 import Home from "./screen/home";
 import AddCategory from "./screen/add_category";
+import AddList from "./screen/add_list";
+import DetailList from "./screen/detail_list";
 
 
 export default function App() {
@@ -20,6 +22,8 @@ export default function App() {
           <Stack.Screen name="Register" component={Register} />
           <Stack.Screen name="Home" component={Home} />
           <Stack.Screen name="AddCategory" component={AddCategory} />
+          <Stack.Screen name="AddList" component={AddList} />
+          <Stack.Screen name="DetailList" component={DetailList} />
         </Stack.Navigator>
       </NavigationContainer>
     </NativeBaseProvider>

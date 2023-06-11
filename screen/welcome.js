@@ -46,5 +46,5 @@ export default function Welcome({ navigation }) {
                 Register
             </Button>
         </View>
-    );
+    )
 }
